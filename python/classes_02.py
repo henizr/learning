@@ -23,4 +23,4 @@ berenjena = Berenjena()
 print(berenjena.name)
 berenjena.name = 'naranja + berenjena'
 print(berenjena.name)
-print(self.color)
+print(berenjena.color)
