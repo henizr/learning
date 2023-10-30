@@ -5,5 +5,7 @@ public class Program {
         marralDuck.performFly();
         marralDuck.setFlyBehavior(new FlyRocketPowered());
         marralDuck.performFly();
+        marralDuck.setFlyBehavior(new Fly());
+        marralDuck.performFly();
     }
 }
