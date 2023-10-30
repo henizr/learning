@@ -1,5 +1,2 @@
-public class King extends Character{
-    public King(){
-        this.weapon = new SwordBehavior();
-    }
+package PACKAGE_NAME;public class King {
 }
