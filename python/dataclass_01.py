@@ -10,3 +10,4 @@ seagull = Seagull(name="Chij", color="yellow", speed=1.2)
 print(seagull.color)
 seagull.color = "red"
 print(seagull.color)
+print(seagull.speed)
