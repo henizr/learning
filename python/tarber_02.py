@@ -23,5 +23,15 @@ from collections import defaultdict
 # print(def_dict["name"])
 
 
+from pprint import pprint
+
+# nums = [1,2,3,4,5,6,7,8,9]
+# dic = {'id': 1, 'name': 'Harry', 'email': 'harry@mail.ru'}
+# print(dic)
+# pprint(dic)
+
+for i in itertools.cycle([1,2]):
+    time.sleep(1)
+    print(i)
 
 
