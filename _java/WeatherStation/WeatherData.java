@@ -29,5 +29,18 @@ public class WeatherData implements Subject{
     public void removeObserver(Observer observer){
         observers.remove(observer);
     }
+
+    public void measurementChanged(){
+        notifyObservers();
+    }
+    
+    public void setMeasurement(float temperature, 
+                                float humidity,
+                                float pressure){
+                                    this.temperature = temperature;
+                                    this.humidity = humidity;
+                                    this.pressure = pressure;
+                                    measurementChanged();
+                                }
     
 }
