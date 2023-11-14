@@ -1,6 +1,6 @@
 package learning._java.strategy;
 
-public class Character {
+public  class Character {
     private WeaponBehavior weapon;
 
     public Character(){
