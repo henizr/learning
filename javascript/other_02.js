@@ -9,4 +9,4 @@ class CustomError extends Error {
   }
 }
 
-throw new CustomError("An application cpecific object occured");
+throw new CustomError("An application-specific object occured");
