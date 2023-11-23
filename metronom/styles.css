@@ -1,0 +1,13 @@
+.metron{
+    width: 250px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #5f21b1;
+    margin-bottom: 10px;
+}
