@@ -8,3 +8,15 @@ class CustomError extends Error{
             }
         }
 }
+
+class ProductNotFound extends Error{
+    constructor(missingProductId){
+        super(`Product ${missingProductId} does not exist in the catalog`);
+        this.name = "ProductNotFound";
+        this.productId = missingProductId;
+
+        if(Error.captureStackTrace){
+            Error.captureStackTrace(this, ProductNotFound);
+        }
+    }
+}
