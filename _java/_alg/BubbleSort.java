@@ -1,4 +1,3 @@
-package learning._java._alg;
 
 import java.util.Arrays;
 
